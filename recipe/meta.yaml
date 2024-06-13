@@ -1,5 +1,5 @@
 {% set name = "chilife" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/chilife-{{ version }}.tar.gz
-  sha256: 3ea2c2f3ae56d6074aa237e9548d6b3e266f876b87b94192a5b5192f34ac63e0
+  sha256: 4c8e321270fc90229d89a21bdafe861baf878ab75211fe2c161c98e1bbce8ce5
 
 build:
   noarch: python
