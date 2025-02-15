@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<3.13
-    - numpy >=1.23.0
+    - numpy >=1.23.0,<2.0
     - scipy >=1.6.3
     - matplotlib-base >=3.3.4
     - numba >=0.57.0
